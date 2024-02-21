@@ -466,13 +466,13 @@
               
                 
                 <div class="form-group col-sm-4">
-                    <!-- <input type="text" name="NAME" id="CenterName" autocomplete="off" 
-                        placeholder="Center Name " autofocus required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> -->
-                    <input type="text" name="CenterName" id="CenterName" autocomplete="off" placeholder="Center Name " autofocus required class="form-control custom-form-control input-lg uc-text" >
+                    <!-- <input type="text" name="NAME" id="SystemName" autocomplete="off" 
+                        placeholder="System Name " autofocus required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> -->
+                    <input type="text" name="SystemName" id="SystemName" autocomplete="off" placeholder="System Name " autofocus required class="form-control custom-form-control input-lg uc-text" >
                 </div>
 <div class="form-group col-sm-4">
-                      <select name="CenterType" id="CenterType" required class="form-control custom-form-control input-lg ">
-                      <option value="" selected="" disabled="" >Center Type </option>
+                      <select name="SystemType" id="SystemType" required class="form-control custom-form-control input-lg ">
+                      <option value="" selected="" disabled="" >System Type </option>
                       <option value="PRIVATE PRIMARY">PRIVATE PRIMARY </option>
                       <option value="PUBLIC SECONDARY">PUBLIC SECONDARY</option>
                       </select>
@@ -480,28 +480,28 @@
              
 
 <div class="form-group col-sm-4">
-    <!-- <input type="text" name="MANAGER" id="CenterManager" autocomplete="off"
-         placeholder="Center Manager" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> -->
-                    <input type="text" name="CenterManager" id="CenterManager" autocomplete="off" placeholder="Center Manager" required class="form-control custom-form-control input-lg uc-text" >
+    <!-- <input type="text" name="MANAGER" id="SystemManager" autocomplete="off"
+         placeholder="System Manager" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> -->
+                    <input type="text" name="SystemManager" id="SystemManager" autocomplete="off" placeholder="System Manager" required class="form-control custom-form-control input-lg uc-text" >
                 </div>
                 <div class="form-group col-sm-4">
-                    <input type="text" name="CenterMobile" id="CenterMobile" autocomplete="off" placeholder="Center Mobile"  maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="SystemMobile" id="SystemMobile" autocomplete="off" placeholder="System Mobile"  maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 </div>
 
 <div class="form-group col-sm-4">
-                    <input type="text" name="CenterPhone" id="CenterPhone" autocomplete="off" placeholder="Center Phone"  maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="SystemPhone" id="SystemPhone" autocomplete="off" placeholder="System Phone"  maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 </div>
 <div class="form-group col-sm-4">
-                    <input type="text" name="CenterWhatsApp" id="CenterWhatsApp" autocomplete="off" placeholder="Center WhatsApp" maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
+                    <input type="text" name="SystemWhatsApp" id="SystemWhatsApp" autocomplete="off" placeholder="System WhatsApp" maxlength="15" required class="form-control custom-form-control input-lg uc-text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">
                 </div>
 <div class="form-group col-sm-4">
-                    <input type="email"  name="CenterEmail" id="CenterEmail" autocomplete="off" placeholder="Center Email "  required class="form-control custom-form-control input-lg uc-text">
+                    <input type="email"  name="SystemEmail" id="SystemEmail" autocomplete="off" placeholder="System Email "  required class="form-control custom-form-control input-lg uc-text">
                 </div>
 
 
                 <div class="form-group col-sm-4">
-                    <select name="CenterSystem" id="CenterSystem" required class="form-control custom-form-control input-lg ">
-                    <option value="" selected="" disabled="" >Center System</option>
+                    <select name="SystemSystem" id="SystemSystem" required class="form-control custom-form-control input-lg ">
+                    <option value="" selected="" disabled="" >System System</option>
                         <option value="PRODUCT SYSTEM">PRODUCT SYSTEM</option>
                         <option value="SERVICE SYSTEM">SERVICE SYSTEM</option>
                      </optgroup>
@@ -522,45 +522,45 @@
 
                 <div class="form-group col-sm-4">
                     <select name="REGION" id="Region" required class="form-control custom-form-control input-lg ">
-                    <option value="" selected="" disabled="" >Center Region</option>
+                    <option value="" selected="" disabled="" >System Region</option>
                     
                     </select>
               </div>
 
                <div class="form-group col-sm-4">
                       <select name="CITY" id="topic" required class="form-control custom-form-control input-lg ">
-                      <option value="" selected="" disabled="" >Center City</option>
+                      <option value="" selected="" disabled="" >System City</option>
                       
                       </select>
                 </div>
 
                 <div class="form-group col-sm-4">
                     <select name="DISTRICT" id="chapter" required class="form-control custom-form-control input-lg ">
-                    <option value="" selected="" disabled="" >Center District</option>
+                    <option value="" selected="" disabled="" >System District</option>
                     
                     </select>
               </div>
 
                <!-- 
                 <div class="form-group col-sm-4">
-                 <input type="text" name="SPECIALTY" id="CenterSpecialty" autocomplete="off" 
-                    placeholder="Center Specialty" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> 
-                <input type="text" name="SPECIALTY" id="CenterSpecialty" autocomplete="off" placeholder="Center Specialty" required class="form-control custom-form-control input-lg uc-text" >
+                 <input type="text" name="SPECIALTY" id="SystemSpecialty" autocomplete="off" 
+                    placeholder="System Specialty" required class="form-control custom-form-control input-lg uc-text" onkeydown="return /[a-zA-Z]/i.test(event.key)"> 
+                <input type="text" name="SPECIALTY" id="SystemSpecialty" autocomplete="off" placeholder="System Specialty" required class="form-control custom-form-control input-lg uc-text" >
             </div>  
         -->
         
          
         <div class="form-group col-sm-4">
-            <select name="CenterNeeds" id="CenterNeeds" required class="form-control custom-form-control input-lg ">
-            <option value="" selected disabled >Center Needs</option>
+            <select name="SystemNeeds" id="SystemNeeds" required class="form-control custom-form-control input-lg ">
+            <option value="" selected disabled >System Needs</option>
             <option value="PRODUCT MINISTRY ">PRODUCT MINISTRY </option>
             <option value="SERVICE MINISTRY ">SERVICE MINISTRY </option>
             </select>
   </div>
 
   <div class="form-group col-sm-4">
-    <select name="CenterOffer" id="CenterOffer" required class="form-control custom-form-control input-lg ">
-    <option value="" selected disabled >Center Offer</option>
+    <select name="SystemOffer" id="SystemOffer" required class="form-control custom-form-control input-lg ">
+    <option value="" selected disabled >System Offer</option>
     <optgroup label="PRODUCT">
         <option value="ONLINE PRODUCT"> ONLINE PRODUCT</option>
         <option value="OFFLINE PRODUCT">OFFLINE PRODUCT</option>
@@ -573,7 +573,7 @@
  </div>
                 <!-- <div class="form-group col-sm-4">
                     <select name="PRODUCT" id="Product" required class="form-control custom-form-control input-lg ">
-                                         <option value="" selected="" disabled="" >Center Product</option>
+                                         <option value="" selected="" disabled="" >System Product</option>
                                          <optgroup label="PRODUCT">
                                             <option value="ONLINEPRODUCT">ONLINE PRODUCT</option>
                                             <option value="OFFLINEPRODUCT">OFFLINE PRODUCT</option>
@@ -590,7 +590,7 @@
              
                
                 <!-- <div class="form-group col-sm-12">
-                    <textarea name="MESSAGE" id="CenterMessage" required autocomplete="off" placeholder="Center Message" cols="30" rows="5" class="form-control custom-form-control input-lg uc-text"></textarea>
+                    <textarea name="MESSAGE" id="SystemMessage" required autocomplete="off" placeholder="System Message" cols="30" rows="5" class="form-control custom-form-control input-lg uc-text"></textarea>
                 </div> -->
                 <div class="form-group col-md-12 text-center ">
                
